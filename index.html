@@ -1,0 +1,190 @@
+<!--
+	Trabalho de Web da Fatec de Carapicuíba
+	Aluno: Vinícius Marques
+	Utilizações: js, html, css, bootstrap, jquery
+	-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Escape</title>
+<meta name="description" content="Jogo Escape">
+<meta name="author" content="Vinícius Marques">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+
+<!-- css -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Fonte -->
+<link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
+
+</head>
+<body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
+
+
+<div class="preloader">
+
+	<div class="sk-rotating-plane"></div>
+
+</div>
+
+<div class="navbar navbar-fixed-top custom-navbar" role="navigation">
+	<div class="container">
+		<div class="collapse navbar-collapse">
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#intro" class="smoothScroll">Home</a></li>
+				<li><a href="#overview" class="smoothScroll">Visão do Jogo</a></li>
+				<li><a href="#game" class="smoothScroll">Jogabilidade</a></li>
+				<li><a href="#program" class="smoothScroll">Organização do Projeto</a></li>
+				<li><a href="#register" class="smoothScroll">Login</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<section id="intro" class="parallax-section">
+	<div class="row">
+			<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.3s">
+				<img src="images/menu.png" class="img-responsive" alt="Overview">
+				<div class="col-md-12 col-sm-12">
+					<a href="#overview" class="btn btn-lg btn-danger smoothScroll wow fadeInUp hidden-xs" data-wow-delay="0.5s">Conhecer</a>
+				</div>
+				<div class="col-md-12 col-sm-12">
+					<a href="#register" class="btn btn-lg btn-danger smoothScroll wow fadeInUp" data-wow-delay="0.7s">Registrar-se</a>
+				</div>
+			</div>
+	</div>
+</section>
+
+<section id="overview" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.6s">
+				<h3>O jogo ESCAPE é um puzzle voltado ao raciocínio lógico aonde o jogador têm a oportunidade de conhecer e até mesmo relembrar fatos ocorridos na área de games.</h3>
+				<p>Trazemos ao cenário da primeira fase algumas pistas que relembram a origem dos videogames aonde se faz necessário localizar bilhetes com dicas e usar de todos os recursos para sair da casa.</p>
+				<p>Fato importante no jogo é o motivo de possuir mais de uma forma de “escapar” da casa, para que o jogador não caia em uma experiência tediosa, portanto, caso não possua conhecimentos mais aprofundados em jogos sempre haverá outra forma.</p>
+				<p>Nosso desejo foi desenvolver algo interativo por meio de eventos e uso de animações 3D, e o estilo em primeira pessoa leva a pensar em uma verdadeira “prisão” mesmo sem grades ou celas.</p>
+
+			</div>
+					
+			<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.9s">
+				<img src="images/overview-img.jpg" class="img-responsive" alt="Overview">
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section id="game" class="parallax-section">
+	<section id="detail" class="parallax-section">
+		<div class="container">
+			<div class="row">
+
+				<div class="wow fadeInLeft col-md-4 col-sm-4" data-wow-delay="0.2s">
+					<h3>Poucas Regras</h3>
+					<p>Fuja como puder! O jogador pode utilizar de todos os recursos para escapar, inclusive contar com a ajuda de outros 
+						Players ou efetuar "pesquisas" dentro da fase. </p>
+				</div>
+
+				<div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.4s">
+					<h3>Cronometragem</h3>
+					<p>Corrida contra o tempo. Há um tempo médio de 25 minutos para completar cada fase.</p>
+				</div>
+
+				<div class="wow fadeInRight col-md-4 col-sm-4" data-wow-delay="0.6s">
+					<h3>Pistas</h3>
+					<p>Explore o cenário e procure por pistas na fase. Há diversos itens para achar como
+						chaves, cartas e objetos "escondidos" ou ocultos.</p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section id="black" class="parallax-section">
+		<div class="container">
+			<div class="row">
+				<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.6s">
+					<h3>Como jogar ? </h3>
+					<p>O jogo é interativo e os comandos são os mesmos para todos os tipos de objetos</p>
+					<p>Teclas mais acessíveis visando a imersão do usuário.</p>
+					<p>No quadro ao lado você poderá notas os comandos:</p>
+				</div>
+				<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.9s">
+					<img src="images/controle.png" class="img-responsive" alt="Overview">
+				</div>
+			</div>
+		</div>
+	</section>
+</section>
+
+<section id="program" class="parallax-section">
+	<section id="overview" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.6s">
+
+				<h3>Kanban (Metodologia Ágile)</h3>
+				<p>Para a organização do projeto, utilizamos a metodologia Kanban e dividimos os itens abaixo entre o grupo.</p>
+				<p>1. História e definição de primeiras ideais</p>
+				<p>2. Planejamento e Levantamento de Requisitos</p>
+				<p>3. Design</p>
+				<p>4. Desenvolvimento</p>
+				<p>5. Sonorização e Linguagem</p>
+			</div>
+					
+			<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.9s">
+				<img src="images/metodologia.png" class="img-responsive" alt="Overview">
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section id="register" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-7 col-sm-7" data-wow-delay="0.6s">
+				<h2>Registrar no Escape</h2>
+				<h3></h3>
+			</div>
+
+			<div class="wow fadeInUp col-md-5 col-sm-5" data-wow-delay="1s">
+				<form action="#" method="post">
+					<input name="firstname" type="text" class="form-control" id="firstname" placeholder="Nome">
+					<input name="email" type="email" class="form-control" id="email" placeholder="E-mail de Login">
+					<input name="password" type="password" class="form-control" id="lastname" placeholder="Senha">
+					<div class="col-md-offset-6 col-md-6 col-sm-offset-1 col-sm-10">
+						<input name="submit" type="submit" class="form-control" id="submit" value="REGISTER">
+					</div>
+				</form>
+			</div>
+
+			<div class="col-md-1"></div>
+
+		</div>
+	</div>
+</section>
+
+<!-- Scripts -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
